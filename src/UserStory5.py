@@ -39,7 +39,7 @@ workout_df = workout_df[
     & (workout_df[dur_col] > 0)
 ].copy()
 
-print("Task 32 complete ✅")
+print("Compute calories per minute metric")
 print(workout_df[["user_id", "date", "activity_type", dur_col, cal_col, "calories_per_minute"]].head(10))
 
 
@@ -66,6 +66,6 @@ ranked = ranked.sort_values("avg_cal_per_min", ascending=False)
 MIN_WORKOUTS = 30
 ranked_filtered = ranked[ranked["workouts"] >= MIN_WORKOUTS].copy()
 
-print("\nTask 33 complete ✅")
+print("Rank activity types by metabolic intensity")
 print("\nTop 10 activities by avg calories/min (min workouts =", MIN_WORKOUTS, "):")
 print(ranked_filtered[["activity_type", "workouts", "avg_cal_per_min", "median_cal_per_min", "avg_duration_min"]].head(10))
