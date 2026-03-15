@@ -127,8 +127,11 @@ Visualization
 The project generates multiple visual outputs including:
 
 • Deep Sleep vs HRV scatter plots
+
 • REM Sleep vs HRV scatter plots
+
 • Activity metabolic intensity comparisons
+
 • Model performance comparison charts
 
 These visualizations help interpret statistical results and identify physiological patterns.
@@ -180,6 +183,12 @@ Future Work
 Potential improvements include:
 
 • Expanding the dataset to include more users and longer time periods
+
 • Implementing advanced time-series models such as LSTM or Transformers
+
 • Building interactive dashboards using Power BI or Streamlit
+
 • Incorporating additional physiological metrics such as resting heart rate and strain score
+
+
+
