@@ -57,6 +57,8 @@ This dataset enables analysis of relationships between **sleep architecture, act
 
 # Project Pipeline
 
+## Project Pipeline
+
 ```mermaid
 flowchart TD
 A[Raw WHOOP Data] --> B[Data Cleaning]
@@ -67,7 +69,11 @@ E --> F[Predictive Modeling]
 F --> G[Deep Learning Model]
 G --> H[Model Evaluation]
 H --> I[Insights and Visualization]
+```
 
+## Machine Learning Pipeline
+
+```mermaid
 flowchart LR
 A[Dataset] --> B[Preprocessing]
 B --> C[Feature Engineering]
@@ -78,14 +84,19 @@ D --> G[GRU Deep Learning Model]
 E --> H[Model Evaluation]
 F --> H
 G --> H
-H --> I[Performance Comparison]
+```
 
-flowchart LR
-A[Input Time Series Data] --> B[GRU Layer]
-B --> C[Dropout Layer]
-C --> D[Dense Layer]
-D --> E[HRV Prediction Output]
+## Deep Learning Model Workflow
 
+```mermaid
+flowchart TD
+A[Input Time Series Data] --> B[Normalization]
+B --> C[Sequence Creation]
+C --> D[GRU Model]
+D --> E[Training]
+E --> F[Validation]
+F --> G[Prediction]
+G --> H[Performance Evaluation]
 ```
 
 Analytical Methods Used
