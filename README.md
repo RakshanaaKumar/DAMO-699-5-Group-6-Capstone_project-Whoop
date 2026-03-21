@@ -237,3 +237,5 @@ These technologies support efficient data cleaning, statistical analysis, predic
 ## 🙌 Conclusion
 
 This project demonstrates how wearable physiological data can be transformed into meaningful health insights using a combination of **statistics**, **machine learning**, and **deep learning**. It provides a strong foundation for future work in **wearable analytics**, **recovery prediction**, and **personalized health monitoring**.
+## RQ4 Update
+Longevity score analysis and visualizations completed successfully.
